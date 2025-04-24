@@ -1,0 +1,226 @@
+<html>
+<!-- IMPORTING FONTS -->
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+
+<!-- HIGHLIGHTED SECTION, TOP -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Specht Car Detailing</title>
+  <style>
+    .highlight-section {
+      background-color: black;
+      padding: 5px;
+      margin: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+
+
+<body bgcolor = #4A4A4A>
+<br>
+
+<!--STYLE FOR HEADING, SPECHT CAR DETAILING -->
+<style>
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      background-color: #4A4A4A;
+      font-family: Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+
+
+body{
+
+	font-family: Verdana, sans-serif;
+
+}
+
+
+/*VERTICAL LINE DOWN THE MIDDLE*/
+.vertical-line {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      width: 1px;
+      background-color: #ff2800; /* Color of the vertical line */
+      z-index: -1; /* Make sure it stays in the background */
+    }
+
+.heading-text {
+      font-size: 65px;
+      color: #ff2800;
+	font-family: 'Audiowide', cursive;
+	text-align: center;
+	flex: 1;     
+}
+
+.heading-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; 
+      padding-top: 20px;
+	padding-left: 100;
+    }
+
+.logo {
+	height: 100px;
+	width: 125px;
+	padding-right: 25px;
+}
+
+.button-BOOKNOW {
+	
+	font-family: Verdana, sans-serif;
+	border: 1;
+	color: white;
+	background: #FF5F1F;
+	border-radius: 8px;
+	text-align: center;
+	height: 40px;
+	width: 110px;
+	font-size: 18;
+	margin-right: 25px;
+	cursor: pointer;
+}
+
+.button-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+	padding-top: -20px; 
+	padding-left: 620px;
+	font-size: 20;
+      color: #ff2800;
+	font-family: 'Audiowide', cursive;
+	text-align: center;
+	flex: 1;  
+    }
+
+
+.triple-button-container {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Audiowide', cursive;
+  color: #ff2800;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.left-button {
+  justify-self: start;
+  margin-left: 20px;
+}
+
+.center-button {
+  justify-self: center;
+}
+
+.right-button {
+  justify-self: end;
+  margin-right: 25px;
+}
+
+.button-packages-prices {
+  font-family: Verdana, sans-serif;
+  background: black;
+  color: white;
+  border-color: blue;
+  border-radius: 8px;
+  text-align: center;
+  height: 30px;
+  width: 200px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+footer.socials-section {
+      background-color: black;
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+	width: 100%;
+	margin-top: auto;
+    }
+
+
+</style>
+
+<div class="vertical-line"></div>
+
+<!-- HEADING -->
+<div class = "heading-container">
+	<h1 class="heading-text"> Specht Car Detailing </h1>
+	<img src = "s04.png" class = "logo">
+</div>
+
+<div class = "button-container">
+	Towson, MD
+	<!--BUTTON FOR BOOKNOW -->
+<a href="htmltest.html">
+	<button class="button-BOOKNOW">Book Now</button>
+</a>
+</div>
+
+<br>
+
+<div class = "triple-button-container">
+	<div class = "left-button">
+
+		<a href="htmltest.html">
+			<button class="button-packages-prices">Packages and Prices</button>
+		</a>
+	</div>
+	<div class = "center-button">
+		<a href="htmltest.html">
+				<button class="button-packages-prices">Book an Appointment</button>
+		</a>
+	</div>
+	<div class = "right-button">
+		<a href="htmltest.html">
+			<button class="button-packages-prices">About Me</button>
+		</a>
+	</div>
+</div>
+<hr style="border: none; height: 2px; background-color: #ff2800; margin: 0 20px;">
+
+
+
+
+
+
+<!-- TEXT IN HIGHLIGHTED SECTION -->
+  <div class="highlight-section">
+    <h2 style = "color: white; margin: 10px; font-family: Verdana, sans-serif">Towson Based Car Detailing Services</h2>
+    <ul style = "color: white; margin: 20px;">
+	<li>established in 2020</li>
+	<br>
+	<li>quality, affordable services</li>
+	<br>
+	<li>bookable through website, phone or email</li>
+	</ul>
+  </div>
+
+  <p>This paragraph is outside the colored section and uses the default background.</p>
+	
+
+	<footer class = "socials-section">
+		<p>This is where socials will go</p>
+	</footer>
+
+</body>
+</html>
